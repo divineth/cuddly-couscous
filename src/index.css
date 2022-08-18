@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary-black m-0 font-nba-reg;
+}
+html {
+  scroll-behavior: smooth;
+}

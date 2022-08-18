@@ -1,0 +1,22 @@
+.container {
+  @apply bg-no-repeat bg-cover bg-[url(/src/assets/image/fetures-bg.svg)];
+  @apply pt-24 pb-12;
+}
+.containerBottom {
+  @apply bg-no-repeat bg-cover bg-[url(/src/assets/image/feature-section-end.svg)];
+  @apply -mt-12 pb-[17%];
+}
+
+.content {
+  @apply flex flex-col items-center justify-start;
+}
+
+.features__selector {
+  @apply mt-16 w-full flex items-center justify-center;
+}
+
+.features__selector_comp {
+  @apply h-auto w-full xl:w-4/5 lg:w-[72%];
+}
+
+

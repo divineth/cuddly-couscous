@@ -1,0 +1,52 @@
+@tailwind base;
+
+@layer base {
+
+  @font-face {
+    font-family: "NBArchitektStd-Light";
+    src: url("./assets/fonts/NBArchitektStd/light/NBArchitektStd-Light.woff2")
+        format("woff2"),
+      url("./assets/fonts/NBArchitektStd/light/NBArchitektStd-Light.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "NBArchitektStd-Regular";
+    src: url("./assets/fonts/NBArchitektStd/regular/NBArchitektStd-Regular.woff2")
+        format("woff2"),
+      url("./assets/fonts/NBArchitektStd/regular/NBArchitektStd-Regular.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "NBArchitektStd-Bold";
+    src: url("./assets/fonts/NBArchitektStd/bold/NBArchitektStd-Bold.woff2")
+        format("woff2"),
+      url("./assets/fonts/NBArchitektStd/bold/NBArchitektStd-Bold.woff")
+        format("woff");
+    font-weight: bold;
+    font-style: bold;
+  }
+
+  .max-width {
+   @apply max-w-7xl w-full mx-auto px-4;
+  }
+}
+
+.App {
+ @apply text-white relative;
+
+}
+
+.app-content {
+
+}
+
+[aria-disabled], [aria-disabled] svg * {
+  @apply text-tertiary-white-t31 !important;
+  @apply fill-tertiary-white-t31 pointer-events-none;
+}
