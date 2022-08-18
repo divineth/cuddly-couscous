@@ -2,7 +2,6 @@ import React from "react";
 import GreenText from "../../common/greenText/greenText";
 import { Heading } from "../../common/uitils/index";
 import styles from "./roadmap.module.css";
-import cloudLong from "../../../assets/image/long-cloud.png";
 import RoadMaps from "./roadmaps";
 
 function RoadMap() {

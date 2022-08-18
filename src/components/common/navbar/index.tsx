@@ -215,23 +215,6 @@ const NavBar: FC = () => {
 
 export default NavBar;
 
-const NavLinks: FC = () => {
-  return (
-    <>
-      <p className={styles.nav_item_links}>
-        <NavLink
-          to="/stake"
-          className={({ isActive }) => {
-            return isActive ? styles.active_nav : "";
-          }}
-        >
-          <DartWhite className={styles.dart} />
-          Staking
-        </NavLink>
-      </p>
-    </>
-  );
-};
 const NavButtons: FC = () => {
   return (
     <>
