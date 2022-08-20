@@ -8,21 +8,21 @@ const Socials: FC = () => {
   return (
     <div className={styles.social_links}>
       <a
-        href="https://twitter.com/shonen_token"
+        href="https://twitter.com"
         rel="noopener noreferrer"
         target="_blank"
       >
         <Twitter />
       </a>
       <a
-        href="https://t.me/shonenverify"
+        href="https://telegram.com"
         rel="noopener noreferrer"
         target="_blank"
       >
         <Telegram />
       </a>
       <a
-        href="https://medium.com/shonen-io"
+        href="https://medium.com"
         rel="noopener noreferrer"
         target="_blank"
       >

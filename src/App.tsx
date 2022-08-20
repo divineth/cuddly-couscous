@@ -6,7 +6,6 @@ import {
   Routes,
 } from "react-router-dom";
 import "./App.css";
-import Footer from "./components/common/footer";
 import GlobalLayout from "./layouts/global-layout";
 import Home from "./pages/home";
 import Stake from "./pages/stake";
@@ -23,8 +22,6 @@ function App() {
           </Route>
           <Route path="/stake" element={<Stake />} />
         </Routes>
-
-        <Footer />
       </Router>
     </div>
   );
