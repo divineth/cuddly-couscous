@@ -1,6 +1,77 @@
 @tailwind base;
 
 @layer base {
+  @font-face {
+    font-family: "Vermin_Vibes";
+    src: url("./assets/fonts/Vermin/Vermin-Vibes.woff2") format("woff2"),
+      url("./assets/fonts/Vermin/Vermin-Vibes.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Rotor";
+    src: url("./assets/fonts/Rotor/Rotor-Demo.woff2") format("woff2"),
+      url("./assets/fonts/Rotor/Rotor-Demo.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Gruppe_B";
+    src: url("./assets/fonts/GruppeB/GruppeB-Light.woff2") format("woff2"),
+      url("./assets/fonts/GruppeB/GruppeB-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'fewtbold_italic';
+    src: url('./assets/fonts/Fewt/Bold/fewt_bold_italic.woff2') format('woff2'),
+         url('./assets/fonts/Fewt/Bold/fewt_bold_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fewtbold';
+    src: url('./assets/fonts/Fewt/Bold/fewt_bold.woff2') format('woff2'),
+         url('./assets/fonts/Fewt/Bold/fewt_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fewtslim_italic';
+    src: url('./assets/fonts/Fewt/Slim/fewt_slim_italic.woff2') format('woff2'),
+         url('./assets/fonts/Fewt/Slim/fewt_slim_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fewtslim';
+    src: url('./assets/fonts/Fewt/Slim/fewt_slim.woff2') format('woff2'),
+         url('./assets/fonts/Fewt/Slim/fewt_slim.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
   @font-face {
     font-family: "NBArchitektStd-Light";
@@ -33,20 +104,19 @@
   }
 
   .max-width {
-   @apply max-w-7xl w-full mx-auto px-4;
+    @apply max-w-7xl w-full mx-auto px-4;
   }
 }
 
 .App {
- @apply text-white relative;
-
+  @apply text-white relative;
 }
 
 .app-content {
-
 }
 
-[aria-disabled], [aria-disabled] svg * {
+[aria-disabled],
+[aria-disabled] svg * {
   @apply text-tertiary-white-t31 !important;
   @apply fill-tertiary-white-t31 pointer-events-none;
 }

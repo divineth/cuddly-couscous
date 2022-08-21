@@ -38,6 +38,7 @@
 }
 
 .content__right_image {
+  @apply object-fill;
 }
 
 .content__left,

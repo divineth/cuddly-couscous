@@ -9,6 +9,13 @@ module.exports = {
         "nba-light": ["NBArchitektStd-Light", "san-serif"],
         "nba-reg": ["NBArchitektStd-Regular", "san-serif"],
         "nba-bold": ["NBArchitektStd-Bold", "san-serif"],
+        "vermin-reg": ["Vermin_Vibes", "san-serif"],
+        "rotor-reg": ["Rotor", "san-serif"],
+        "gruppeb-reg": ["Gruppe_B", "san-serif"],
+        "fewt-bold": ["fewtbold", "san-serif"],
+        "fewt-bold-italic": ["fewtbold_italic", "san-serif"],
+        "fewt-slim": ["fewtslim", "san-serif"],
+        "fewt-slim-italic": ["fewtslim_italic", "san-serif"]
       },
       colors: {
         "primary-green": "#ED1C24",
@@ -73,6 +80,60 @@ module.exports = {
           fontWeight: "700",
           fontSize: "48px",
           // lineHeight: "24px",
+        },
+        ".rotor-reg-17": {
+          fontFamily: theme("fontFamily.rotor-reg"),
+          fontStyle: "normal",
+          fontWeight: "400",
+          fontSize: "17px",
+        },
+        ".rotor-reg-22": {
+          fontFamily: theme("fontFamily.rotor-reg"),
+          fontStyle: "normal",
+          fontWeight: "400",
+          fontSize: "22px",
+        },
+        ".rotor-reg-24": {
+          fontFamily: theme("fontFamily.rotor-reg"),
+          fontStyle: "normal",
+          fontWeight: "400",
+          fontSize: "24px",
+        },
+        ".fewt-16": {
+          fontFamily: theme("fontFamily.fewt-slim"),
+          fontStyle: "normal",
+          fontWeight: "400",
+          fontSize: "16px",
+        },
+        ".fewt-18": {
+          fontFamily: theme("fontFamily.fewt-slim"),
+          fontStyle: "normal",
+          fontWeight: "400",
+          fontSize: "18px",
+        },
+        ".fewt-20": {
+          fontFamily: theme("fontFamily.fewt-slim"),
+          fontStyle: "normal",
+          fontWeight: "400",
+          fontSize: "20px",
+        },
+        ".fewt-22": {
+          fontFamily: theme("fontFamily.fewt-slim"),
+          fontStyle: "normal",
+          fontWeight: "400",
+          fontSize: "22px",
+        },
+        ".fewt-24": {
+          fontFamily: theme("fontFamily.fewt-slim"),
+          fontStyle: "normal",
+          fontWeight: "400",
+          fontSize: "24px",
+        },
+        ".vermin-64": {
+          fontFamily: theme("fontFamily.vermin-reg"),
+          fontStyle: "normal",
+          fontWeight: "400",
+          fontSize: "64px",
         },
 
         ".dfTransition": {

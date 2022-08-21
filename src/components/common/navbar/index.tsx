@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import styles from "./nav.module.css";
 import { Menu, Popover } from "@headlessui/react";
 import { NavLink } from "react-router-dom";
-import { ReactComponent as Logo } from "../../../assets/image/hero.svg";
+import { ReactComponent as Logo } from "../../../assets/image/logo2.svg";
 import { ReactComponent as Humburger } from "../../../assets/icons/mobile-nav.svg";
 import Button from "../button";
 import { DartWhite } from "../uitils";
