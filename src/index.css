@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-primary-black m-0 font-nba-reg;
+  @apply bg-primary-black m-0 font-rotor-reg;
 }
 html {
   scroll-behavior: smooth;

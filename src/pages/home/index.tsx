@@ -1,9 +1,9 @@
 import React from "react";
 import Features from "../../components/home/features";
 import Hero from "../../components/home/hero-section";
-import Benefits from "../../components/home/investor-benefits";
+import MoreDetails from "../../components/home/more-details";
 import RoadMap from "../../components/home/roadmap";
-import TokenMetrics from "../../components/home/tokenmetrics";
+import Tokenomics from "../../components/home/tokenomics";
 import WhatIsShonen from "../../components/home/what-is-shonen";
 
 
@@ -13,9 +13,9 @@ function Home() {
       <Hero />
       <WhatIsShonen />
       <Features />
-      <Benefits />
-      <TokenMetrics />
-      <RoadMap />
+      <MoreDetails/>
+      <Tokenomics/>
+      <RoadMap/>
       </>
     );
   }

@@ -129,6 +129,24 @@ module.exports = {
           fontWeight: "400",
           fontSize: "24px",
         },
+        ".vermin-24": {
+          fontFamily: theme("fontFamily.vermin-reg"),
+          fontStyle: "normal",
+          fontWeight: "400",
+          fontSize: "24px",
+        },
+        ".vermin-26": {
+          fontFamily: theme("fontFamily.vermin-reg"),
+          fontStyle: "normal",
+          fontWeight: "400",
+          fontSize: "26px",
+        },
+        ".vermin-32": {
+          fontFamily: theme("fontFamily.vermin-reg"),
+          fontStyle: "normal",
+          fontWeight: "400",
+          fontSize: "32px",
+        },
         ".vermin-64": {
           fontFamily: theme("fontFamily.vermin-reg"),
           fontStyle: "normal",

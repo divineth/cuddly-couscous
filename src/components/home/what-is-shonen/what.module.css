@@ -33,7 +33,7 @@
 }
 
 .content__right_text {
-  @apply font-nba-light xl:text-[24px] lg:text-[17px] md:text-[16px] text-[14px] xl:mt-20 lg:mt-12 mt-10;
+  @apply font-rotor-reg xl:text-[24px] lg:text-[17px] md:text-[16px] text-[14px] xl:mt-20 lg:mt-12 mt-10;
   @apply md:leading-[170%] leading-[240%];
   @apply md:text-left text-center;
 }

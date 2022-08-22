@@ -4,7 +4,7 @@ import { Menu, Popover } from "@headlessui/react";
 import { NavLink } from "react-router-dom";
 import { ReactComponent as Logo } from "../../../assets/image/logo2.svg";
 import { ReactComponent as Humburger } from "../../../assets/icons/mobile-nav.svg";
-import Button from "../button";
+import Button from "../nbutton";
 import { DartWhite } from "../uitils";
 
 const NavBar: FC = () => {
@@ -31,34 +31,8 @@ const NavBar: FC = () => {
                   <div className="overflow-hidden shadow-lg ring-1 ring-black ring-opacity-5">
                     <div className="relative grid gap-4 bg-primary-black p-4">
                       <div className="flex flex-col">
-                        <h1 className="text-xl font-nba-bold flex gap-2">
-                          <DartWhite className="h-[25px]" /> Docs
-                        </h1>
-                        <a
-                          href={require("../../../assets/doc/shonen_lp_final.pdf")}
-                          rel="noopener noreferrer"
-                          className={styles.mobile__nav_a}
-                        >
-                          <div className="">
-                            <p className={styles.mobile__nav_text}>Whitepaper</p>
-                          </div>
-                        </a>
-                        <a
-                          href="/#"
-                          rel="noopener noreferrer"
-                          aria-disabled
-                          className={styles.mobile__nav_a}
-                        >
-                          <div className="">
-                            <p className={styles.mobile__nav_text}>
-                              Audit (Coming Soon)
-                            </p>
-                          </div>
-                        </a>
-                      </div>
-                      <div className="flex flex-col">
-                        <h1 className="text-xl font-nba-bold flex gap-2">
-                          <DartWhite className="h-[25px]" /> Dapps
+                        <h1 className="text-xl font-vermin-reg flex gap-2">
+                           Dapps
                         </h1>
                         <a
                           href={require("../../../assets/doc/shonen_lp_final.pdf")}
@@ -77,7 +51,7 @@ const NavBar: FC = () => {
                         >
                           <div className="">
                             <p className={styles.mobile__nav_text}>
-                              Mobile App (Coming Soon)
+                              Mobile App (WIP)
                             </p>
                           </div>
                         </a>
@@ -96,64 +70,14 @@ const NavBar: FC = () => {
         <div className={styles.nav_container}>
           <Menu as="div" className={`relative text-left`}>
             <Menu.Button className={styles.nav_item_docs}>
-              <DartWhite className="h-[25px]" />
-              DOCS
-            </Menu.Button>
-
-            <Menu.Items className={` ${styles.menu__items}`}>
-              <div className="py-4 px-2">
-                <Menu.Item>
-                  {({ active }) => (
-                    <a
-                      href={require("../../../assets/doc/shonen_lp_final.pdf")}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`${
-                        active ? "text-white" : "tertiary-white-t31"
-                      } ${styles.menu__item}`}
-                    >
-                      {active ? (
-                        <DartWhite
-                          className={styles.menu__item_icon}
-                          aria-hidden="true"
-                        />
-                      ) : (
-                        <span className={styles.menu__item_icon}></span>
-                      )}
-                      Whitepaper
-                    </a>
-                  )}
-                </Menu.Item>
-                <Menu.Item>
-                  {({ active }) => (
-                    <a
-                      href="/#"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-disabled
-                      className={`${
-                        active ? "text-white" : "text-tertiary-white-t31"
-                      } ${styles.menu__item}`}
-                    >
-                      {active ? (
-                        <DartWhite
-                          className={styles.menu__item_icon}
-                          aria-hidden="true"
-                        />
-                      ) : (
-                        <span className={styles.menu__item_icon}></span>
-                      )}
-                      Audit (Coming Soon)
-                    </a>
-                  )}
-                </Menu.Item>
-              </div>
-            </Menu.Items>
-          </Menu>
-          <Menu as="div" className={`relative text-left`}>
-            <Menu.Button className={styles.nav_item_docs}>
-              <DartWhite className="h-[25px]" />
-              DAPPS
+              <Button
+                buttonAs="button"
+                className={`${styles.button}`}
+                target="_blank"
+                buttonFormat="alt"
+              >
+                Dapps
+              </Button>
             </Menu.Button>
 
             <Menu.Items className={` ${styles.menu__items}`}>
@@ -199,14 +123,13 @@ const NavBar: FC = () => {
                       ) : (
                         <span className={styles.menu__item_icon}></span>
                       )}
-                      Mobile App (Coming Soon)
+                      Mobile App (WIP)
                     </a>
                   )}
                 </Menu.Item>
               </div>
             </Menu.Items>
           </Menu>
-          <NavButtons />
         </div>
       </div>
     </section>
