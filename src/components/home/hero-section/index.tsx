@@ -2,8 +2,7 @@ import React from "react";
 import styles from "./hero.module.css";
 import Ninja from "../../../assets/image/hollow-ichigo.png";
 import Ichigo from "../../../assets/image/hero.svg";
-import Socials from "../../common/socials";
-import GreenText from "../../common/greenText/greenText";
+import Button from "../../common/nbutton";
 
 function Hero() {
   return (
@@ -16,9 +15,27 @@ function Hero() {
             className={styles.content__left_image}
           />
           <div className={styles.content__left_text}>
-            <GreenText>COMING SOON</GreenText>
+            UNLEASH TRUE POWER
           </div>
-          <Socials />
+          <div className={styles.content_left_buttons}>
+            <Button
+              href={require("../../../assets/doc/shonen_lp_final.pdf")}
+              buttonAs="a"
+              target="_blank"
+              buttonType="secondary"
+              className={styles.button}
+            >
+              WHITEPAPER
+            </Button>
+            <Button
+              href="https://app.uniswap.org/#/swap?outputCurrency=0x31538c865E4e4Ed6Aa847988dE7AC1c4eeC656D6&chain=mainnet"
+              buttonAs="a"
+              target="_blank"
+              className={styles.button}
+            >
+              Buy Ichigo
+            </Button>
+          </div>
         </div>
         <div className={styles.content__right}>
           <img

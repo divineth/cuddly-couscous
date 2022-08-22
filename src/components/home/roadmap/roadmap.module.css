@@ -7,7 +7,7 @@
 }
 
 .in__roadmap__container {
-  @apply lg:flex hidden mt-10 flex-col w-full;
+  @apply lg:flex hidden mt-10 flex-col w-full px-16;
 }
 
 .roadmap__graphics {
@@ -36,5 +36,5 @@
 }
 
 .roadmap__svg_text {
-@apply font-nba-reg fill-white;
+@apply font-rotor-reg lg:rotor-reg-24 fill-white;
 }

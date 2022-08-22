@@ -5,7 +5,7 @@
 .content {
   @apply flex items-center justify-between pt-9 pb-9;
   @apply bg-no-repeat bg-contain bg-bottom;
-  @apply px-8;
+  @apply px-4;
 }
 
 .nav_container {

@@ -1,22 +1,65 @@
 import React from "react";
-import GreenText from "../../common/greenText/greenText";
 import styles from "./features.module.css";
-import { Heading } from "../../common/uitils/index";
-
-import FeaturesSelector from "../selector-component";
 
 function Features() {
+  const features: { image: any; title: string; description: string }[] = [
+    {
+      image: require("../../../assets/image/feature-01.png"),
+      title: "Lorem Ipsum",
+      description:
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
+    },
+    {
+      image: require("../../../assets/image/feature-04.png"),
+      title: "Lorem Ipsum",
+      description:
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
+    },
+    {
+      image: require("../../../assets/image/feature-02.png"),
+      title: "Lorem Ipsum",
+      description:
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
+    },
+    {
+      image: require("../../../assets/image/feature-05.png"),
+      title: "Lorem Ipsum",
+      description:
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
+    },
+    {
+      image: require("../../../assets/image/feature-03.png"),
+      title: "Lorem Ipsum",
+      description:
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
+    },
+    {
+      image: require("../../../assets/image/feature-06.png"),
+      title: "Lorem Ipsum",
+      description:
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
+    },
+  ];
   return (
     <>
       <section className={`${styles.container}`}>
         <div className={`${styles.content} max-width`}>
-          <Heading>
-            <span>
-              Ichigo <GreenText>Features</GreenText>
-            </span>
-          </Heading>
-          <div className={styles.features__selector}>
-            <FeaturesSelector className={styles.features__selector_comp} />
+          <div className="flex pt-16 items-center md:justify-start justify-center font-vermin xl:vermin-64 lg:vermin-32 md:vermin-26 vermin-24">
+            <span>Product Features</span>
+          </div>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          <div className={`${styles.features}`}>
+            {features.map(({ image, title, description }, i) => (
+              <div key={i} className={`${styles.feature}`}>
+                <div className={`${styles.content__left}`}>
+                  <img src={image} className="h-20 w-20 object-cover" alt="" />
+                </div>
+                <div className={`${styles.content__right}`}>
+                  <div className={`${styles.heading}`}>{title}</div>
+                  <div className={`${styles.description}`}>{description}</div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

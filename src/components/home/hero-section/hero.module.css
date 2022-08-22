@@ -6,11 +6,11 @@
 .content {
   @apply flex lg:flex-row flex-col items-center;
   @apply justify-between pt-24;
-  @apply lg:bg-[#14000066] bg-[#000000ed];
+  @apply lg:bg-[#00000000] bg-[#000000ed];
 }
 
 .content__left {
-  @apply flex flex-col items-center justify-center lg:w-1/2 w-full;
+  @apply flex flex-col items-center lg:items-start justify-center lg:w-1/4 w-full;
   @apply max-h-[910px] min-h-[600px] h-screen;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .content__left_text {
-  @apply text-white font-nba-bold lg:nba-bold-21 text-[17px];
+  @apply text-white font-rotor-reg lg:rotor-reg-24 text-[17px];
   @apply lg:my-9 my-12;
   @apply overflow-hidden whitespace-nowrap inline-flex;
   /* animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite; */
@@ -34,15 +34,21 @@
 }
 
 .content__right {
-  @apply lg:flex lg:w-1/2 hidden;
+  @apply lg:flex lg:w-3/4 lg:ml-32 hidden;
+  @apply max-h-[910px] min-h-[600px] h-screen;
 }
 
 .content__right_image {
+  @apply object-fill;
 }
 
 .content__left,
 .content__right {
   @apply p-1;
+}
+
+.content__right{
+  @apply pb-0;
 }
 
 /* The typing effect */
