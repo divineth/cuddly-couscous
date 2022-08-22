@@ -12,7 +12,7 @@ const NavBar: FC = () => {
     <section className={`${styles.container}`}>
       <div className={`${styles.content} max-width`}>
         <NavLink to="/" id="top">
-          <Logo className={"w-40"} />
+          <Logo className={"w-full"} />
         </NavLink>
 
         <div className={styles.mobile_nav}>
