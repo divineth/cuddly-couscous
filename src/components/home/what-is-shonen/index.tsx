@@ -15,12 +15,13 @@ function WhatIsShonen() {
             <span>About Us</span>
           </div>
           <p className={styles.content__right_text}>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem.
+            Ichigo has declared war against hollows. Valued holders will become
+            members of the soul society and the inner circle. This will grant
+            them access to the full force of Defi at their fingertips. We are
+            providing a unique liquidity locker which will ensure that we can
+            significantly lower the barrier to entry for new startups and
+            hardworking teams in the defi space in order to help them achieve
+            their targets.
           </p>
         </div>
         <div className={styles.content__left}>

@@ -19,7 +19,7 @@ function Hero() {
           </div>
           <div className={styles.content_left_buttons}>
             <Button
-              href={require("../../../assets/doc/shonen_lp_final.pdf")}
+              href={require("../../../assets/doc/ichigo_wp_rev1.pdf")}
               buttonAs="a"
               target="_blank"
               buttonType="secondary"

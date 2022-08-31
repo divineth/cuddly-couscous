@@ -35,7 +35,7 @@ const NavBar: FC = () => {
                            Dapps
                         </h1>
                         <a
-                          href={require("../../../assets/doc/shonen_lp_final.pdf")}
+                          href={require("../../../assets/doc/ichigo_wp_rev1.pdf")}
                           rel="noopener noreferrer"
                           className={styles.mobile__nav_a}
                         >
@@ -85,7 +85,7 @@ const NavBar: FC = () => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href={require("../../../assets/doc/shonen_lp_final.pdf")}
+                      href={require("../../../assets/doc/ichigo_wp_rev1.pdf")}
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`${
