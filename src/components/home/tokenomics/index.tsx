@@ -27,9 +27,6 @@ function Tokenomics() {
             <span>Ichigo Tokenomics</span>
           </div>
           <div className={styles.content__right_body}>
-            <p className={styles.content__right_text}>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            </p>
             <Button
               href="https://app.uniswap.org/#/swap?outputCurrency=0x31538c865E4e4Ed6Aa847988dE7AC1c4eeC656D6&chain=mainnet"
               buttonAs="a"

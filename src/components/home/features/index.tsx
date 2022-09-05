@@ -5,40 +5,40 @@ function Features() {
   const features: { image: any; title: string; description: string }[] = [
     {
       image: require("../../../assets/image/feature-01.png"),
-      title: "Lorem Ipsum",
+      title: "Liquidity Locking",
       description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
+        "Ichigo presents an innovative liquidity locker that aims to protect both developers and investors.",
     },
     {
       image: require("../../../assets/image/feature-04.png"),
-      title: "Lorem Ipsum",
+      title: "Seamless Upgrades",
       description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
+        "Ichigo allows unlimited seamless upgrades to a project's contract while transferring liquidity along with the upgrades.",
     },
-    {
-      image: require("../../../assets/image/feature-02.png"),
-      title: "Lorem Ipsum",
-      description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
-    },
-    {
-      image: require("../../../assets/image/feature-05.png"),
-      title: "Lorem Ipsum",
-      description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
-    },
-    {
-      image: require("../../../assets/image/feature-03.png"),
-      title: "Lorem Ipsum",
-      description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
-    },
-    {
-      image: require("../../../assets/image/feature-06.png"),
-      title: "Lorem Ipsum",
-      description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
-    },
+    // {
+    //   image: require("../../../assets/image/feature-02.png"),
+    //   title: "Lorem Ipsum",
+    //   description:
+    //     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
+    // },
+    // {
+    //   image: require("../../../assets/image/feature-05.png"),
+    //   title: "Lorem Ipsum",
+    //   description:
+    //     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
+    // },
+    // {
+    //   image: require("../../../assets/image/feature-03.png"),
+    //   title: "Lorem Ipsum",
+    //   description:
+    //     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
+    // },
+    // {
+    //   image: require("../../../assets/image/feature-06.png"),
+    //   title: "Lorem Ipsum",
+    //   description:
+    //     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem ",
+    // },
   ];
   return (
     <>
@@ -47,7 +47,6 @@ function Features() {
           <div className="flex pt-16 items-center md:justify-start justify-center font-vermin xl:vermin-64 lg:vermin-32 md:vermin-26 vermin-24">
             <span>Product Features</span>
           </div>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           <div className={`${styles.features}`}>
             {features.map(({ image, title, description }, i) => (
               <div key={i} className={`${styles.feature}`}>

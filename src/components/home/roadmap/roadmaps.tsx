@@ -40,108 +40,106 @@ const RoadMapGraphic: FC<RoadMap> = ({ handleClick, visible = false }) => {
           fill="#B03227"
           fill-opacity="0.25"
         />
-        <circle
-          cx="70"
-          cy="8"
-          r="6"
-          fill="#E9B500"
-          stroke="#141414"
-          stroke-width="4"
-        />
-        <text
-          x={35}
-          y={45.597}
-          fontSize={18.667}
-          className={styles.roadmap__svg_text}
-          transform="translate(-21.008 1.938)"
-        >
-          <tspan>{"Lorem Ipsum"}</tspan>
-        </text>
-        <circle
-          cx="300"
-          cy="8"
-          r="6"
-          fill="#E9B500"
-          stroke="#141414"
-          stroke-width="4"
-        />
-        <text
-          x={263}
-          y={45.597}
-          fontSize={18.667}
-          className={styles.roadmap__svg_text}
-          transform="translate(-21.008 1.938)"
-        >
-          <tspan>{"Lorem Ipsum"}</tspan>
-        </text>
-        <circle
-          cx="760"
-          cy="8"
-          r="6"
-          fill="#E9B500"
-          stroke="#141414"
-          stroke-width="4"
-        />
-        <text
-          x={720}
-          y={45.597}
-          fontSize={18.667}
-          className={styles.roadmap__svg_text}
-          transform="translate(-21.008 1.938)"
-        >
-          <tspan>{"Lorem Ipsum"}</tspan>
-        </text>
-        <text
-          x={492}
-          y={45.597}
-          fontSize={18.667}
-          className={styles.roadmap__svg_text}
-          transform="translate(-21.008 1.938)"
-        >
-          <tspan>{"Lorem Ipsum"}</tspan>
-        </text>
-        <circle
-          cx="530"
-          cy="8"
-          r="6"
-          fill="#E9B500"
-          stroke="#141414"
-          stroke-width="4"
-        />
-        <text
-          x={1180}
-          y={45.597}
-          fontSize={18.667}
-          className={styles.roadmap__svg_text}
-          transform="translate(-21.008 1.938)"
-        >
-          <tspan>{"Lorem Ipsum"}</tspan>
-        </text>
-        <circle
-          cx="1220"
-          cy="8"
-          r="6"
-          fill="#E9B500"
-          stroke="#141414"
-          stroke-width="4"
-        />
-        <text
-          x={950}
-          y={45.597}
-          fontSize={18.667}
-          className={styles.roadmap__svg_text}
-          transform="translate(-21.008 1.938)"
-        >
-          <tspan>{"Lorem Ipsum"}</tspan>
-        </text>
-        <circle
-          cx="990"
-          cy="8"
-          r="6"
-          fill="#E9B500"
-          stroke="#141414"
-          stroke-width="4"
-        />
+        <g>
+          <circle
+            cx="70"
+            cy="8"
+            r="6"
+            fill="#E9B500"
+            stroke="#141414"
+            stroke-width="4"
+          />
+          <text
+            x={35}
+            y={45.597}
+            fontSize={18.667}
+            className={styles.roadmap__svg_text}
+            transform="translate(-21.008 1.938)"
+          >
+            <tspan>{"Token Launch"}</tspan>
+          </text>
+        </g>
+
+
+        <g transform="translate(50)">
+          <circle
+            cx="300"
+            cy="8"
+            r="6"
+            fill="#E9B500"
+            stroke="#141414"
+            stroke-width="4"
+          />
+          <text
+            x={263}
+            y={45.597}
+            fontSize={18.667}
+            className={styles.roadmap__svg_text}
+            transform="translate(-35.008 1.938)"
+          >
+            <tspan>{"Building Product"}</tspan>
+          </text>
+        </g>
+
+        <g transform="translate(100)">
+          <text
+            x={492}
+            y={45.597}
+            fontSize={18.667}
+            className={styles.roadmap__svg_text}
+            transform="translate(-45.008 1.938)"
+          >
+            <tspan>{"Securing Partnerships"}</tspan>
+          </text>
+          <circle
+            cx="530"
+            cy="8"
+            r="6"
+            fill="#E9B500"
+            stroke="#141414"
+            stroke-width="4"
+          />
+        </g>
+
+        <g transform="translate(150)">
+          <circle
+            cx="760"
+            cy="8"
+            r="6"
+            fill="#E9B500"
+            stroke="#141414"
+            stroke-width="4"
+          />
+          <text
+            x={720}
+            y={45.597}
+            fontSize={18.667}
+            className={styles.roadmap__svg_text}
+            transform="translate(-40.008 1.938)"
+          >
+            <tspan>{"Exchange Listings"}</tspan>
+          </text>
+        </g>
+        
+        <g transform="translate(200)">
+          <text
+            x={950}
+            y={45.597}
+            fontSize={18.667}
+            className={styles.roadmap__svg_text}
+            transform="translate(-35.008 1.938)"
+          >
+            <tspan>{"Push for adoption"}</tspan>
+          </text>
+          <circle
+            cx="990"
+            cy="8"
+            r="6"
+            fill="#E9B500"
+            stroke="#141414"
+            stroke-width="4"
+          />
+        </g>
       </svg>
     </div>
   );
