@@ -28,7 +28,7 @@ function Hero() {
               WHITEPAPER
             </Button>
             <Button
-              href="https://app.uniswap.org/#/swap?outputCurrency=0x31538c865E4e4Ed6Aa847988dE7AC1c4eeC656D6&chain=mainnet"
+              href="#"
               buttonAs="a"
               target="_blank"
               className={styles.button}
